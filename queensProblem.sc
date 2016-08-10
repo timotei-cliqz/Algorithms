@@ -1,4 +1,5 @@
 //Source: Martin Odersky's course on Coursera: "Functional Programming Principles in Scala"
+//the source code was not provided in the course, so this might be helpful to those who want to look at it without having to write it down from the video
 //TO DO: add a brief explanation of how it works
 def queens (n:Int) : Set[List[Int]] = {
 
