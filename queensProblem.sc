@@ -32,8 +32,3 @@ def show(queens : List[Int]) = {
 }
 
 (queens(4) map show) mkString "\n"
-
-
-
-
-
