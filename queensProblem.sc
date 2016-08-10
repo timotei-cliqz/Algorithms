@@ -1,5 +1,5 @@
-//Saw this implementation in Martin Odersky's course on Coursera "Functional Programming Principles in Scala"
-
+//Source: Martin Odersky's course on Coursera: "Functional Programming Principles in Scala"
+//TO DO: add a brief explanation of how it works
 def queens (n:Int) : Set[List[Int]] = {
 
   def isSafe(col:Int, queens: List[Int]) : Boolean = {
@@ -20,7 +20,6 @@ def queens (n:Int) : Set[List[Int]] = {
       }yield  col :: queens
     }
   }
-
   placeQueens(n)
 }
 
